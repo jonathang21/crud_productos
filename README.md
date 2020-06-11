@@ -24,3 +24,6 @@ Ademas de lo anterior se debe tener instalado xampp para activar el apache y el 
 
 en el archivo src/Actions/Actions.js estan las conexiones para los archivos de php, ahi modificar las rutas de localhost, en 
 caso de que apache no corra por el puerto 8585 (tenia los otros puertos ocupados)
+
+en el archivo base_datos_insertar.txt que se encuentra en la raiz esta el insert de base de datos para guardar la informacion
+los productos
