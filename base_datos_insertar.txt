@@ -1,0 +1,13 @@
+/*base de datos a insertar*/
+CREATE TABLE `productos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre_producto` varchar(250) NOT NULL,
+  `referencia` varchar(250) NOT NULL,
+  `precio` int(11) NOT NULL,
+  `peso` int(11) NOT NULL,
+  `categoria` varchar(250) NOT NULL,
+  `stock` int(11) NOT NULL,
+  `fecha_creacion` date NOT NULL,
+  `fecha_ultima_venta` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
