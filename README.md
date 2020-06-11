@@ -3,12 +3,16 @@ Prueba técnica
 
 Para que funcione la aplicacion se debe instalar lo siguiente:
 > npm install -g json server
+
 > npm install create-react-app -g
+
 > create-react-app prueba_konecta //esta es la carpeta donde esta app de react
 
 ejecutar los siguientes comandos dentro de la carpeta de la app de react
 > npm run
+
 > npm start
+
 > npm install axios --save //para instalar el cliente para conectar con php
 
 no es necesario ejecutar los comandos de creat-react, ya que la carpeta fue subida completamente a git.
